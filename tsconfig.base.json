@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-starter-pack/ui": ["ui/src/index.ts"],
+      "@nx-starter-pack/web": ["web/src/index.ts"],
+      "@rnm/domain": ["libs/domain/src/index.ts"],
+      "@rnm/page": ["page/src/index.ts"],
+      "@rnm/shared": ["libs/shared/src/index.ts"],
+      "@rnm/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
